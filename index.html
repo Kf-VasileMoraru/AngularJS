@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="Mailbox">
+<html ng-app="mailClient">
+
 <head>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+</head>
 
-
-<body ng-controller="MailList as MailList">
-
-<letter-list></letter-list>
-<letter-card></letter-card>
-</body>
+<body>
+<div class="container">
+    <mail-client></mail-client>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script src="script.js"></script>
+</body>
+
 </html>

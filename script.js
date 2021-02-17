@@ -1,52 +1,39 @@
-var app = angular.module('Mailbox', []);
+var app = angular.module("mailClient", []);
 
-app.directive('letterList', function(){
-    return {
-        restrict: 'E',
-        templateUrl: 'letter-list.html'
+app.service("MailService", function($http) {
+    this.loadIncomingMessages = function() {
+        return $http.get("data.json")
+            .then(response => response.data)
+            .catch(error => console.log(error));
     };
 });
 
-app.directive('letterCard', function(){
+app.directive("mailClient", function(MailService) {
     return {
-        restrict: 'E',
-        templateUrl: 'letter-card.html'
-    };
-});
+        restrict: "E",
+        templateUrl: "mail-client.html",
+        controllerAs: "client",
+        controller: function() {
+            var self = this;
 
-app.controller('MailList', function(){
+            self.mails = [];
 
-    this.users = [
-        {
-            name: 'Mark Otto',
-            address: 'markotto@mail.com',
-            subject: 'First Letter',
-            text: 'Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1 Text1'
-        },
-        {
-            name: 'Jacob Thornton',
-            address: 'jacob@mail.com',
-            subject: 'Second Letter',
-            text: 'Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2'
-        },
-        {
-            name: 'Jan Buller',
-            address: 'buller@mail.com',
-            subject: 'Third Letter',
-            text: 'Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3 Text3'
+            MailService.loadIncomingMessages().then(function(mails) {
+                self.mails = mails;
+            });
         }
-    ];
-
-    this.show = (name, address, subject, text) => {
-        this.greetingsShown = true;
-        this.name = name;
-        this.address = address;
-        this.subject = subject;
-        this.text = text;
-
     };
-
-    this.close = () => this.greetingsShown = false;
-
 });
+
+
+app.directive("mailItem", function() {
+    return {
+        restrict: "E",
+        templateUrl: "mail-item.html"
+    };
+});
+
+
+
+
 
