@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f00932-55f7-4917-adee-8fb29d1f1fdf" name="Default Changelist" comment="directive task I">
-      <change afterPath="$PROJECT_DIR$/.idea/jsonSchemas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+    <list default="true" id="e4f00932-55f7-4917-adee-8fb29d1f1fdf" name="Default Changelist" comment="directive task II+service">
+      <change afterPath="$PROJECT_DIR$/container.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/version/interpolate-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/version/interpolate-filter.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/version/version-directive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/version/version-directive.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/version/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/version/version.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index-async.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view1/view1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view1/view1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view1/view1.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view2/view2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view2/view2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view2/view2.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e-tests/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e-tests/scenarios.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/mail-client.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mail-item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-client.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail-item.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +63,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -60,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1613400769735</updated>
       <workItem from="1613400771794" duration="12897000" />
-      <workItem from="1613456334805" duration="14031000" />
+      <workItem from="1613456334805" duration="16571000" />
+      <workItem from="1613645550231" duration="2250000" />
     </task>
     <task id="LOCAL-00001" summary="ready app">
       <created>1613413180231</created>
@@ -118,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613545638885</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="directive task II+service">
+      <created>1613548096448</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613548096448</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +160,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="Angularcik" />
                       </list>
                     </value>
                   </entry>
@@ -160,6 +185,7 @@
     <MESSAGE value="directive+controller" />
     <MESSAGE value="directive task" />
     <MESSAGE value="directive task I" />
-    <option name="LAST_COMMIT_MESSAGE" value="directive task I" />
+    <MESSAGE value="directive task II+service" />
+    <option name="LAST_COMMIT_MESSAGE" value="directive task II+service" />
   </component>
 </project>

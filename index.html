@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html ng-app="mailClient">
-
+<html ng-app="app">
 <head>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Currency Converter by Dmitry Timchuk</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        body {
+            margin-top: 20px;
+        }
+
+        input {
+            outline: none;
+            -webkit-box-shadow: none !important;
+            -moz-box-shadow: none !important;
+            box-shadow: none !important;
+        }
+    </style>
 </head>
 
-<body>
-<div class="container">
-    <mail-client></mail-client>
-</div>
+<body ng-controller="currencyController as vm">
+
+<input ng-model="vm.admin.firstName"/>
+<input ng-model="vm.admin.lastName"/>
+
+<container first-name="vm.admin.firstName" last-name="vm.admin.lastName"></container>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-<script src="script.js"></script>
+<script src="currency.js"></script>
 </body>
-
 </html>
