@@ -21,10 +21,8 @@
 
 <body ng-controller="currencyController as vm">
 
-<input ng-model="vm.admin.firstName"/>
-<input ng-model="vm.admin.lastName"/>
-
-<container first-name="vm.admin.firstName" last-name="vm.admin.lastName"></container>
+<container call="vm.sayHello(name)"></container>
+<container call="vm.sayHello(name)"></container>
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script src="currency.js"></script>

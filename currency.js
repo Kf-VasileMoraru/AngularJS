@@ -3,22 +3,20 @@ var app = angular.module('app', []);
 app.directive('container', function () {
     return {
         scope: {
-            firstName: '=',
-            lastName: '='
+            call: '&'
         },
         restrict: 'E',
         templateUrl: 'container.html',
         controllerAs: 'container',
         bindToController: true,
-        controller: function(){
+        controller: function () {
             console.log(this);
         },
-        link: function(scope){
+        link: function (scope) {
             //alert(scope.age);
         }
     }
 });
-
 
 
 app.controller('currencyController', function () {
@@ -28,4 +26,8 @@ app.controller('currencyController', function () {
         firstName: 'John',
         lastName: 'Doe'
     };
+
+    vm.sayHello = function (name){
+        alert(name)
+    }
 });

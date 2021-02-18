@@ -1,34 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f00932-55f7-4917-adee-8fb29d1f1fdf" name="Default Changelist" comment="directive task II+service">
-      <change afterPath="$PROJECT_DIR$/container.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency.js" afterDir="false" />
+    <list default="true" id="e4f00932-55f7-4917-adee-8fb29d1f1fdf" name="Default Changelist" comment="scope user =">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/version/interpolate-filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/version/interpolate-filter.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/version/version-directive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/version/version-directive.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/version/version.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/version/version.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index-async.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view1/view1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view1/view1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view1/view1.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view2/view2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view2/view2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/view2/view2.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e-tests/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e-tests/scenarios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/container.html" beforeDir="false" afterPath="$PROJECT_DIR$/container.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency.js" beforeDir="false" afterPath="$PROJECT_DIR$/currency.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail-client.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail-item.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +55,7 @@
       <updated>1613400769735</updated>
       <workItem from="1613400771794" duration="12897000" />
       <workItem from="1613456334805" duration="16571000" />
-      <workItem from="1613645550231" duration="2250000" />
+      <workItem from="1613645550231" duration="3658000" />
     </task>
     <task id="LOCAL-00001" summary="ready app">
       <created>1613413180231</created>
@@ -143,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613548096448</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="scope user =">
+      <created>1613658406671</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613658406671</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +170,7 @@
     <MESSAGE value="directive task" />
     <MESSAGE value="directive task I" />
     <MESSAGE value="directive task II+service" />
-    <option name="LAST_COMMIT_MESSAGE" value="directive task II+service" />
+    <MESSAGE value="scope user =" />
+    <option name="LAST_COMMIT_MESSAGE" value="scope user =" />
   </component>
 </project>
