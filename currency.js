@@ -1,33 +1,27 @@
-var app = angular.module('app', []);
-
-app.directive('container', function () {
-    return {
-        scope: {
-            call: '&'
+angular.module('app', []).controller('CC', function () {
+    this.tasks = [
+        {
+            name: "1go go",
+            done: false
         },
-        restrict: 'E',
-        templateUrl: 'container.html',
-        controllerAs: 'container',
-        bindToController: true,
-        controller: function () {
-            console.log(this);
+        {
+            name: "2go go",
+            done: false
         },
-        link: function (scope) {
-            //alert(scope.age);
+        {
+            name: "3go go",
+            done: false
         }
+    ];
+    this.add = function (x){
+        var y={}
+        y.name = x.name;
+       y.done = false;
+        this.tasks.push(y);
     }
-});
 
-
-app.controller('currencyController', function () {
-    var vm = this;
-
-    vm.admin = {
-        firstName: 'John',
-        lastName: 'Doe'
-    };
-
-    vm.sayHello = function (name){
-        alert(name)
+    this.delete = function (x){
+        console.log(x);
+        this.tasks.splice(x,1);
     }
 });
