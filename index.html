@@ -1,27 +1,11 @@
 <!DOCTYPE html>
 <html >
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
     <script src="currency.js"></script>
 </head>
 
-<body ng-app="app" ng-controller="CC as cc">
+<body >
 <h2> To do List</h2>
-<hr>
-    <form>
-        <h3>New Task</h3>
-        Name:<input type="text" ng-model="newtask.name">
-        Filter:<input type="text" ng-model="x1">
-        <input type="submit" ng-click="cc.add(newtask)" value="Add Task">
-    </form>
-<hr>
-<ul>
-    <li ng-repeat = "task in cc.tasks | filter: x1">
-        <input type="checkbox" ng-model="task.done" ng-click="cc.delete($index)">
-        <span>  {{task.name}}</span>
-    </li>
-</ul>
-
 
 </body>
 </html>
