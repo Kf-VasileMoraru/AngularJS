@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f00932-55f7-4917-adee-8fb29d1f1fdf" name="Default Changelist" comment="curs online">
-      <change afterPath="$PROJECT_DIR$/testNpm.js" afterDir="false" />
+    <list default="true" id="e4f00932-55f7-4917-adee-8fb29d1f1fdf" name="Default Changelist" comment="curs online+node">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency.js" beforeDir="false" afterPath="$PROJECT_DIR$/currency.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testNpm.js" beforeDir="false" afterPath="$PROJECT_DIR$/testNpm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +36,15 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1oWSHymSnxoPX7R2rX6JChQxrbb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -80,7 +80,8 @@
       <workItem from="1613663178941" duration="272000" />
       <workItem from="1613663461719" duration="2454000" />
       <workItem from="1613720161215" duration="3196000" />
-      <workItem from="1613728706922" duration="7328000" />
+      <workItem from="1613728706922" duration="15133000" />
+      <workItem from="1614181549504" duration="10357000" />
     </task>
     <task id="LOCAL-00001" summary="ready app">
       <created>1613413180231</created>
@@ -173,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613748078732</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="curs online+node">
+      <created>1614068084215</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614068084215</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +218,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ready app webSite_I" />
     <MESSAGE value="ready app webSite_II" />
     <MESSAGE value="directive+controller" />
@@ -219,7 +228,8 @@
     <MESSAGE value="scope user =" />
     <MESSAGE value="scope user &amp;" />
     <MESSAGE value="curs online" />
-    <option name="LAST_COMMIT_MESSAGE" value="curs online" />
+    <MESSAGE value="curs online+node" />
+    <option name="LAST_COMMIT_MESSAGE" value="curs online+node" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
